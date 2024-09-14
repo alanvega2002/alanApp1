@@ -1,0 +1,54 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+/* Centrar todo el contenido del ion-content */
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centrar verticalmente */
+  align-items: center;      /* Centrar horizontalmente */
+  height: 100vh;            /* Ocupa toda la altura de la pantalla */
+  text-align: center;
+}
+
+/* Ajustes para los botones */
+ion-button {
+  width: 300px;             /* Ancho del botón */
+  height: 50px;             /* Altura del botón */
+  margin: 10px 0;           /* Margen superior e inferior para separarlos */
+  font-size: 18px;          /* Tamaño del texto */
+  background-color: #19a119; /* Cambia el color del botón */
+  color: white;             /* Color del texto en los botones */
+  display: block;           /* Asegura que los botones se vean como bloques */
+}
+ion-header {
+  background-color: #00ff00; /* Verde Matrix */
+  color: black;              /* Color del texto en la barra superior */
+}
+
+ion-toolbar {
+  --background: #00ff00; /* Cambia el fondo de la barra de herramientas a verde tipo Matrix */
+  --color: black;        /* Cambia el color del texto */
+}

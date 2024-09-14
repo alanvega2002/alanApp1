@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Página de Inicio
+    </ion-title>
+    <!-- Botón para cerrar sesión -->
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">Cerrar Sesión</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenido personalizado -->
+  <div id="container">
+    <p>Bienvenido {{ username }}</p>
+    <p>Estamos aquí para ayudarte a explorar nuestros productos.</p>
+
+    <!-- Botones de navegación -->
+    <ion-button expand="full" routerLink="/productos">Ver productos</ion-button>
+    <ion-button expand="full" routerLink="/perfil">Ver perfil</ion-button>
+  </div>
+</ion-content>

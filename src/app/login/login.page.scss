@@ -1,0 +1,42 @@
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; // Ocupar la altura total de la pantalla
+    padding: 20px;
+  
+    // Hacer que todo el formulario esté centrado
+    .login-form {
+      width: 100%;
+      max-width: 400px; // Ancho máximo del formulario en pantallas grandes
+      padding: 20px;
+      background-color: #1e1e1e; // Fondo oscuro (opcional) para que destaque el formulario
+      border-radius: 10px; // Bordes redondeados
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); // Sombras para darle estilo
+  
+      ion-item {
+        margin-bottom: 15px; // Espacio entre los campos
+      }
+  
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+  
+        button {
+          width: 48%; // Hacer que los botones ocupen el mismo espacio
+        }
+      }
+    }
+  }
+  ion-header {
+    background-color: #00ff00; /* Verde Matrix */
+    color: black;              /* Color del texto */
+  }
+  
+  ion-toolbar {
+    --background: #00ff00; /* Cambia el fondo de la barra de herramientas */
+    --color: black;        /* Cambia el color del texto */
+  }
+  
